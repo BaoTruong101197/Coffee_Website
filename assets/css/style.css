@@ -740,6 +740,14 @@ button {
     .card__list {
         grid-template-columns: repeat(1, 200px);
     }
+
+    .blog__list {
+        grid-template-columns: repeat(1, 70%);
+    }
+
+    .blog__img {
+        height: auto;
+    }
 }
 
 @media all and (min-width: 767px) {
